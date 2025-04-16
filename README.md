@@ -9,10 +9,10 @@ Stwórz interaktywny Quiz Wiedzy z graficznym interfejsem opartym na Tkinter, kt
 **📄 Wczytywanie pytań**:
 - Dane wczytywane z pliku .json.
 - Każde pytanie ma:
--- Tekst pytania
--- 4 odpowiedzi (A, B, C, D)
--- Wskaźnik poprawnej odpowiedzi
--- Kategorię tematyczną (np. Historia, Nauka, Kultura)
+- Tekst pytania
+- 4 odpowiedzi (A, B, C, D)
+- Wskaźnik poprawnej odpowiedzi
+- Kategorię tematyczną (np. Historia, Nauka, Kultura)
 
 🎲 Losowy wybór i kolejność pytań:
 Za każdym razem losowa kolejność pytań.
