@@ -37,7 +37,7 @@ Stwórz interaktywny Quiz Wiedzy z graficznym interfejsem opartym na Tkinter, kt
 - Timer odliczany w osobnym wątku (threading.Timer lub after() z Tkintera).
 - Jeśli gracz nie odpowie – odpowiedź uznana za błędną.
 
-**🖥️ Graficzny interfejs użytkownika (GUI)((:
+**🖥️ Graficzny interfejs użytkownika (GUI)**:
 - Zbudowany z użyciem Tkinter, zgodnie z modelem View w MVC.
 - Widoki:
 - Ekran startowy (z wyborem kategorii lub rozpoczęciem quizu)
