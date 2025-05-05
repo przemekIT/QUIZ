@@ -1,0 +1,38 @@
+{
+    "Historia": [
+        {"question": "W którym roku rozpoczęła się II Wojna Światowa?", "answers": ["1914", "1939", "1945", "1923"], "correct_answer": "1939"},
+        {"question": "Kto był pierwszym prezydentem USA?", "answers": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"], "correct_answer": "George Washington"},
+        {"question": "Który faraon wybudował Wielką Piramidę w Gizie?", "answers": ["Ramzes II", "Cheops", "Tutanchamon", "Akhenaton"], "correct_answer": "Cheops"},
+        {"question": "Jaki był cel wyprawy Krzysztofa Kolumba?", "answers": ["Odkrycie Ameryki", "Zdobycie Indii", "Znalezienie złota", "Zdobycie Afryki"], "correct_answer": "Odkrycie Ameryki"},
+        {"question": "Jakie państwo jako pierwsze ogłosiło niepodległość?", "answers": ["USA", "Francja", "Polska", "Hiszpania"], "correct_answer": "USA"},
+        {"question": "Kiedy upadło Cesarstwo Rzymskie?", "answers": ["476", "1453", "800", "1215"], "correct_answer": "476"},
+        {"question": "Kim był Napoleon Bonaparte?", "answers": ["Król Francji", "Cesarz Francji", "Prezydent Francji", "Generał USA"], "correct_answer": "Cesarz Francji"},
+        {"question": "Jak nazywał się pierwszy człowiek w kosmosie?", "answers": ["Neil Armstrong", "Jurij Gagarin", "Buzz Aldrin", "Alan Shepard"], "correct_answer": "Jurij Gagarin"},
+        {"question": "Gdzie podpisano Deklarację Niepodległości USA?", "answers": ["Waszyngton", "Nowy Jork", "Boston", "Filadelfia"], "correct_answer": "Filadelfia"},
+        {"question": "Która wojna zakończyła się w 1918 roku?", "answers": ["I Wojna Światowa", "II Wojna Światowa", "Wojna Secesyjna", "Wojna Koreańska"], "correct_answer": "I Wojna Światowa"}
+    ],
+    "Nauka": [
+        {"question": "Co odkrył Albert Einstein?", "answers": ["Teoria ewolucji", "Prawo grawitacji", "Teoria względności", "Mechanika kwantowa"], "correct_answer": "Teoria względności"},
+        {"question": "Jaka planeta jest największa w Układzie Słonecznym?", "answers": ["Mars", "Jowisz", "Saturn", "Ziemia"], "correct_answer": "Jowisz"},
+        {"question": "Co to jest fotosynteza?", "answers": ["Proces produkcji energii przez rośliny", "Reakcja chemiczna w wulkanach", "Proces tworzenia tlenu przez zwierzęta", "Mechanizm oddychania ryb"], "correct_answer": "Proces produkcji energii przez rośliny"},
+        {"question": "Jaką jednostkę miary używa się do mierzenia energii?", "answers": ["Wat", "Juliusz", "Dżul", "Kelwin"], "correct_answer": "Dżul"},
+        {"question": "Który pierwiastek chemiczny ma symbol 'O'?", "answers": ["Wodór", "Tlen", "Azot", "Hel"], "correct_answer": "Tlen"},
+        {"question": "Co to jest czarna dziura?", "answers": ["Obiekt o ogromnej grawitacji", "Planeta poza Układem Słonecznym", "Rodzaj gwiazdy neutronowej", "Zjawisko atmosferyczne"], "correct_answer": "Obiekt o ogromnej grawitacji"},
+        {"question": "Jak działa zasada Archimedesa?", "answers": ["Siła wyporu", "Prawo grawitacji", "Teoria względności", "Prawo Ohma"], "correct_answer": "Siła wyporu"},
+        {"question": "Kto wynalazł żarówkę?", "answers": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Isaac Newton"], "correct_answer": "Thomas Edison"},
+        {"question": "Co to jest DNA?", "answers": ["Cząsteczka przechowująca informacje genetyczne", "Rodzaj białka", "Komórka roślinna", "Pierwiastek chemiczny"], "correct_answer": "Cząsteczka przechowująca informacje genetyczne"},
+        {"question": "Jaka jest prędkość światła w próżni?", "answers": ["300,000 km/s", "150,000 km/s", "1,000 km/s", "500 km/s"], "correct_answer": "300,000 km/s"}
+    ],
+    "Kultura": [
+        {"question": "Kto napisał 'Pan Tadeusz'?", "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "Henryk Sienkiewicz", "Bolesław Prus"], "correct_answer": "Adam Mickiewicz"},
+        {"question": "Który artysta stworzył obraz Mona Lisa?", "answers": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"], "correct_answer": "Leonardo da Vinci"},
+        {"question": "Która książka J.R.R. Tolkiena została zekranizowana jako trylogia?", "answers": ["Hobbit", "Silmarillion", "Władca Pierścieni", "Dzieci Húrina"], "correct_answer": "Władca Pierścieni"},
+        {"question": "Kto był twórcą filmu 'Gwiezdne Wojny'?", "answers": ["Steven Spielberg", "George Lucas", "James Cameron", "Christopher Nolan"], "correct_answer": "George Lucas"},
+        {"question": "Jak nazywa się główny bohater w 'Harry Potter'?", "answers": ["Frodo Baggins", "Harry Potter", "Katniss Everdeen", "Sherlock Holmes"], "correct_answer": "Harry Potter"},
+        {"question": "Co to jest haiku?", "answers": ["Rodzaj wiersza japońskiego", "Styl malarski", "Forma tańca", "Nurt literacki"], "correct_answer": "Rodzaj wiersza japońskiego"},
+        {"question": "Kto napisał 'Romeo i Julia'?", "answers": ["Juliusz Słowacki", "Adam Mickiewicz", "William Shakespeare", "Johann Wolfgang von Goethe"], "correct_answer": "William Shakespeare"},
+        {"question": "Jak nazywał się słynny kompozytor 'Dziadka do orzechów'?", "answers": ["Ludwig van Beethoven", "Piotr Czajkowski", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart"], "correct_answer": "Piotr Czajkowski"},
+        {"question": "Co to jest origami?", "answers": ["Japońska sztuka składania papieru", "Rodzaj malarstwa", "Technika rzeźbiarska", "Forma muzyki"], "correct_answer": "Japońska sztuka składania papieru"},
+        {"question": "Który reżyser stworzył 'Pulp Fiction'?", "answers": ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Stanley Kubrick"], "correct_answer": "Quentin Tarantino"}
+    ]
+}
