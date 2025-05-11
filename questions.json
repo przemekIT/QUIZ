@@ -1,0 +1,90 @@
+[
+    {
+        "text": "Która planeta jest największa w Układzie Słonecznym?",
+        "answers": [
+            "Ziemia",
+            "Jowisz",
+            "Mars",
+            "Wenus"
+        ],
+        "correct_answer_index": 1,
+        "category": "Nauka"
+    },
+    {
+        "text": "Kto napisał 'Lalkę'?",
+        "answers": [
+            "Henryk Sienkiewicz",
+            "Adam Mickiewicz",
+            "Bolesław Prus",
+            "Juliusz Słowacki"
+        ],
+        "correct_answer_index": 2,
+        "category": "Literatura"
+    },
+    {
+        "text": "W którym roku rozpoczęła się II Wojna Światowa?",
+        "answers": [
+            "1914",
+            "1939",
+            "1941",
+            "1945"
+        ],
+        "correct_answer_index": 1,
+        "category": "Historia"
+    },
+    {
+        "text": "Stolicą Francji jest:",
+        "answers": [
+            "Berlin",
+            "Madryt",
+            "Rzym",
+            "Paryż"
+        ],
+        "correct_answer_index": 3,
+        "category": "Geografia"
+    },
+    {
+        "text": "Co oznacza skrót CPU w kontekście komputerów?",
+        "answers": [
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Power Unit",
+            "Core Processing Unit"
+        ],
+        "correct_answer_index": 0,
+        "category": "Technologia"
+    },
+    {
+        "text": "Który z tych gazów jest najlżejszy?",
+        "answers": [
+            "Tlen",
+            "Azot",
+            "Wodór",
+            "Hel"
+        ],
+        "correct_answer_index": 2,
+        "category": "Nauka"
+    },
+    {
+        "text": "Ile boków ma sześciokąt?",
+        "answers": [
+            "Pięć",
+            "Sześć",
+            "Siedem",
+            "Osiem"
+        ],
+        "correct_answer_index": 1,
+        "category": "Matematyka"
+    },
+    {
+        "text": "Kto jest autorem obrazu 'Gwiaździsta noc'?",
+        "answers": [
+            "Claude Monet",
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Salvador Dalí"
+        ],
+        "correct_answer_index": 2,
+        "category": "Sztuka"
+    }
+]
