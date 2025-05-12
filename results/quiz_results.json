@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Dima",
+        "score": 18,
+        "total": 20,
+        "time": 0,
+        "category": "Historia"
+    },
+    {
+        "name": "Gamer",
+        "score": 5,
+        "total": 20,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "Gamer1",
+        "score": 6,
+        "total": 20,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "John",
+        "score": 4,
+        "total": 20,
+        "time": 0,
+        "category": "Losowy"
+    },
+    {
+        "name": "Aneta",
+        "score": 16,
+        "total": 38,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "Dima",
+        "score": 8,
+        "total": 20,
+        "time": 0,
+        "category": "Historia"
+    },
+    {
+        "name": "A",
+        "score": 3,
+        "total": 20,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "Jacek",
+        "score": 10,
+        "total": 20,
+        "time": 0,
+        "category": "Losowy"
+    },
+    {
+        "name": "A",
+        "score": 1,
+        "total": 20,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "f",
+        "score": 5,
+        "total": 20,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "Z",
+        "score": 4,
+        "total": 20,
+        "time": 0,
+        "category": "Losowy"
+    },
+    {
+        "name": "F",
+        "score": 5,
+        "total": 20,
+        "time": 0,
+        "category": "Nauka"
+    },
+    {
+        "name": "Nick",
+        "score": 5,
+        "total": 20,
+        "time": 0,
+        "category": "Kultura"
+    }
+]

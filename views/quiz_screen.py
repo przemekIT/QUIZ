@@ -1,28 +1,34 @@
 import tkinter as tk
 from tkinter import ttk
 from models.result_savers import save_result
-
+from models.quiz_game import QuizGame
 
 class QuizScreen(tk.Toplevel):
-    def __init__(self, parent, questions, player_name):
+    def __init__(self, parent, questions, player_name, chosen_category):
         super().__init__(parent)
 
         self.title("Quiz Wiedzy")
         self.geometry("600x400")
         self.configure(bg="#f4f4f4")
 
-        self.questions = questions  # Store all questions
-        self.player_name = player_name 
+        self.quiz_game = QuizGame(questions) # Initialize QuizGame instance
 
-        self.score = 0
+        self.player_name = player_name
+        self.category = chosen_category
 
-        self.current_question_index = 0  # Track which question is displayed
-        self.time_limit = 15 # seconds
+        # Timer label
+       
+        self.time_label = ttk.Label(self, text=f"Czas: {self.quiz_game.time_left}s", font=("Arial", 14))
+        self.time_label.pack(pady=10)
 
         self.create_widgets()
+        self.load_question()
+
+        # Start the timer for the first question! 
+        self.quiz_game.start_timer(lambda t: self.time_label.config(text=f"Czas {t}s"), self.disable_answer_buttons, self.show_next_button)
 
     def create_widgets(self):
-
+        """Creates quiz UI elements."""
         self.title_label = ttk.Label(self, text="Quiz Wiedzy", font=("Arial", 24, "bold"))
         self.title_label.pack(side="top", pady=10)
 
@@ -35,76 +41,89 @@ class QuizScreen(tk.Toplevel):
             btn.pack(pady=5)
             self.answer_buttons.append(btn)
 
-        # Timer label
-
-        self.timer_label = ttk.Label(self, text=f"Czas: {self.time_limit}", font=("Arial", 12))
-        self.timer_label.pack(pady=10)
-
         self.feedback_label = ttk.Label(self, text="", font=("Arial", 12, "bold"))
         self.feedback_label.pack(pady=10)
 
         self.next_button = ttk.Button(self, text="Następne pytanie", command=self.next_question)
         self.next_button.pack(pady=10)
-        self.next_button.pack_forget()  # Hide at start
-
-        self.load_question()
+        self.next_button.pack_forget()
 
     def load_question(self):
-        """Load the next question if available, else end quiz."""
-        if self.current_question_index < len(self.questions):
-            self.remainining_time = self.time_limit
+        """Loads the next question or ends the quiz."""
+        question_data = self.quiz_game.get_current_question()
 
-            question_data = self.questions[self.current_question_index]
+        if question_data:
             self.question_label.config(text=question_data["question"])
 
             for i, answer in enumerate(question_data["answers"]):
                 self.answer_buttons[i].config(text=answer, command=lambda a=answer: self.check_answer(a))
+                self.answer_buttons[i].config(state="normal") # Enable the buttons, to be able to answer the next question 
 
-            self.feedback_label.config(text="")  # Reset feedback
-            self.next_button.pack_forget()  # Hide "Next" button
-
-            self.update_timer()  # Start countdown
+            self.feedback_label.config(text="")  
+            self.next_button.pack_forget()
 
         else:
             self.end_quiz()
 
-    def update_timer(self):
-        """Update the timer label every second"""
-        if self.remainining_time > 0:
-            self.timer_label.config(text=f"Czas: {self.remainining_time} s")
-            self.remainining_time -= 1
-            self.after(1000, self.update_timer) # Update every second
-        else:
-            self.time_up() # handle timeout
-
-    def time_up(self):
-        """Handle when time runs out"""
-        self.feedback_label.config(text="⏳ Czas minął! ❌", foreground="red")
-        self.next_button.pack()  # Show "Next" button
-
     def check_answer(self, selected_answer):
-        correct_answer = self.questions[self.current_question_index]["correct_answer"]
-        if selected_answer == correct_answer:
-            self.feedback_label.config(text="✅ Poprawna odpowiedź!", foreground="green")
-            self.score += 1
+        """Checks the answer."""
+
+        # Stop the timer 
+        self.quiz_game.stop_timer()
+
+        # Disable all answer buttons after clicking one 
+        for btn in self.answer_buttons:
+            btn.config(state="disabled")
+        
+        is_correct = self.quiz_game.check_answer(selected_answer)
+        # correct_answer = self.questions[self.current_question_index]["correct_answer"]
+        # if selected_answer == correct_answer:
+        if is_correct:
+            self.feedback_label.config(text="✅ Poprawna odpowiedź!", foreground="green")           
         else:
             self.feedback_label.config(text="❌ Niepoprawna odpowiedź!", foreground="red")
-
-        self.next_button.pack()  # Show "Next" button after answering
+            
+        self.next_button.pack()
 
     def next_question(self):
-        """Advance to the next question."""
-        self.current_question_index += 1
-        self.load_question()
+        """Moves to the next question and resests the timer."""
+        if self.quiz_game.next_question():
+            self.load_question()
+
+            # Reset the timer  
+            self.quiz_game.reset_timer()           
+            self.time_label.config(text=f"Czas: {self.quiz_game.time_left}s")            
+
+            # Start the timer and pass a function to disable the buttons when time's up
+            self.quiz_game.start_timer(
+                lambda t: self.time_label.config(text=f"Czas: {t}s"),
+                self.disable_answer_buttons, 
+                self.show_next_button
+            )
+        else:
+            self.end_quiz()
+
+    def disable_answer_buttons(self):
+        """Disables all answer buttons when time runs out."""
+        for btn in self.answer_buttons:
+            btn.config(state="disabled")
+
+    def show_next_button(self):
+        """Makes the 'Next Question' button visible when timer ends. """
+        self.next_button.pack()
 
     def end_quiz(self):
-        self.question_label.config(text=f"Quiz zakończony! Wynik: {self.score}/{len(self.questions)}")
+        """Ends the quiz and saves the result."""
+        final_score = self.quiz_game.get_score()
+        total_questions = len(self.quiz_game.questions)
+
+        self.question_label.config(text=f"Quiz zakończony! Wynik: {final_score}/{total_questions}")
+
         for btn in self.answer_buttons:
             btn.pack_forget()
         self.next_button.pack_forget()
-        self.timer_label.pack_forget()
 
-        quiz_time = len(self.questions) * self.time_limit  # Approximate total time
-        save_result(self.player_name, self.score, len(self.questions), quiz_time)
+        # Save result
+        save_result(self.player_name, final_score, len(self.quiz_game.questions), 0, self.category)  # No timer, so total time is omitted
 
         self.feedback_label.config(text=f"📜 Wynik zapisano dla: {self.player_name}!", foreground="blue")

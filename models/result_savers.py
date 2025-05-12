@@ -1,25 +1,33 @@
-import csv
+import json
 import os
-from datetime import datetime
 
-def save_result(player_name, score, total_questions, quiz_time):
-    file_path = "results/quiz_results.csv"
+def save_result(player_name, score, total_questions, quiz_time, category):
+    """Save quiz results in the results folder."""
     
-    # Ensure the results folder exists
-    os.makedirs("results", exist_ok=True)
+    # ✅ Define the correct directory path
+    results_dir = "results"
+    results_file = os.path.join(results_dir, "quiz_results.json")
 
-    # Prepare data for saving
-    percentage = (score/total_questions) * 100
-    date_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # ✅ Ensure the folder exists before saving
+    os.makedirs(results_dir, exist_ok=True)
 
-    # Save to CSV file 
-    with open(file_path, mode="a", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        # if file is empty, add a header row
+    result_data = {
+        "name": player_name,
+        "score": score,
+        "total": total_questions,
+        "time": quiz_time, 
+        "category": category
+    }
+    
+    try:
+        with open(results_file, "r") as file:
+            results = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        results = []
 
-        if file.tell() == 0:
-            writer.writerow(["Imię gracza", "Data", "Wynik (%)", "Poprawne odpowiedzi", "Łączna liczba pytań", "Czas quizu"])
+    results.append(result_data)
 
-        writer.writerow([player_name, date_time, f"{percentage:.2f}%", score, total_questions, f"{quiz_time} sek"])
+    with open(results_file, "w") as file:
+        json.dump(results, file, indent=4)
 
-    print(f"Wynik zapisano do {file_path}")
+    print(f" Wynik zapisano w: {results_file}")

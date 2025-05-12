@@ -1,3 +1,9 @@
+import sys
+import os
+
+# add project root to Python's search path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import tkinter as tk
 from views.start_screen import StartScreen
 from views.quiz_screen import QuizScreen
