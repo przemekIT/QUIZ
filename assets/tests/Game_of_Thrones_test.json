@@ -1,0 +1,94 @@
+{
+    "Game of Thrones":[
+        {
+        "question": "Mistrz Coin Lord Petyr Baelish był również znany pod jakim imieniem?",
+        "options": [
+          { "answer": "Mały palec", "correct": true },
+          { "answer": "Varys", "correct": false },
+          { "answer": "Czarna Ręka", "correct": false },
+          { "answer": "Sokół", "correct": false }
+        ]
+      },
+      {
+        "question": "Jak nazywa się pierwszy odcinek Gry o Tron?",
+        "options": [
+          { "answer": "Nadchodzi zima", "correct": true },
+          { "answer": "Bitwa o Królewską Przystań", "correct": false },
+          { "answer": "Gra o Tron", "correct": false },
+          { "answer": "Noc nadchodzi", "correct": false }
+        ]
+      },
+      {
+        "question": "Jak nazywa się seria prequeli Gry o Tron?",
+        "options": [
+          { "answer": "Dom Smoka", "correct": true },
+          { "answer": "Nocny Król", "correct": false },
+          { "answer": "Pieśń Lodu i Ognia", "correct": false },
+          { "answer": "Mury Westeros", "correct": false }
+        ]
+      },
+      {
+        "question": "Jakie jest prawdziwe imię Hodora?",
+        "options": [
+          { "answer": "Wylisa", "correct": true },
+          { "answer": "Howland", "correct": false },
+          { "answer": "Wyman", "correct": false },
+          { "answer": "Walder", "correct": false }
+        ]
+      },
+      {
+        "question": "Jak nazywa się ostatni odcinek serii 7?",
+        "options": [
+          { "answer": "Smok i Wilk", "correct": true },
+          { "answer": "Bitwa Bękartów", "correct": false },
+          { "answer": "Koniec Gry", "correct": false },
+          { "answer": "Długi Pożegnanie", "correct": false }
+        ]
+      },
+      {
+        "question": "Daenerys ma 3 smoki, dwa nazywa się Drogon i Rhaegal, jak nazywa się trzeci?",
+        "options": [
+          { "answer": "Viserion", "correct": true },
+          { "answer": "Vhaghar", "correct": false },
+          { "answer": "Balerion", "correct": false },
+          { "answer": "Meraxes", "correct": false }
+        ]
+      },
+      {
+        "question": "Jak zginęło dziecko Cersei, Myrcella?",
+        "options": [
+          { "answer": "Zatrute", "correct": true },
+          { "answer": "Zadźgane", "correct": false },
+          { "answer": "Utopione", "correct": false },
+          { "answer": "Rzucone z wieży", "correct": false }
+        ]
+      },
+      {
+        "question": "Jak nazywa się Wilkor Jona Snowa?",
+        "options": [
+          { "answer": "Ghost", "correct": true },
+          { "answer": "Nymeria", "correct": false },
+          { "answer": "Shaggydog", "correct": false },
+          { "answer": "Summer", "correct": false }
+        ]
+      },
+      {
+        "question": "Kto był odpowiedzialny za stworzenie Króla Nocy?",
+        "options": [
+          { "answer": "Dzieci lasu", "correct": true },
+          { "answer": "Biali Wędrowcy", "correct": false },
+          { "answer": "Trzejokli Kruk", "correct": false },
+          { "answer": "Ród Starków", "correct": false }
+        ]
+      },
+      {
+        "question": "Iwan Rheon, który grał w Ramsay Bolton, został prawie obsadzony jako która postać?",
+        "options": [
+          { "answer": "Jon Snow", "correct": true },
+          { "answer": "Robb Stark", "correct": false },
+          { "answer": "Jaime Lannister", "correct": false },
+          { "answer": "Oberyn Martell", "correct": false }
+        ]
+      }
+    ]
+  }

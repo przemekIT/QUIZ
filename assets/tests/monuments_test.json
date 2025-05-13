@@ -1,0 +1,94 @@
+{
+    "Zabytki":[
+      {
+      "question": "Gdzie znajdują się Piramida w Gizie i Wielki Sfinks?",
+      "options": [
+        { "answer": "Egipt", "correct": true },
+        { "answer": "Peru", "correct": false },
+        { "answer": "Grecja", "correct": false },
+        { "answer": "Meksyk", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Koloseum?",
+      "options": [
+        { "answer": "Włochy", "correct": true },
+        { "answer": "Hiszpania", "correct": false },
+        { "answer": "Francja", "correct": false },
+        { "answer": "Turcja", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Angkor Wat?",
+      "options": [
+        { "answer": "Kambodża", "correct": true },
+        { "answer": "Wietnam", "correct": false },
+        { "answer": "Tajlandia", "correct": false },
+        { "answer": "Indonezja", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Statua Wolności?",
+      "options": [
+        { "answer": "Stany Zjednoczone Ameryki", "correct": true },
+        { "answer": "Francja", "correct": false },
+        { "answer": "Wielka Brytania", "correct": false },
+        { "answer": "Kanada", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Sydney Harbour Bridge?",
+      "options": [
+        { "answer": "Australia", "correct": true },
+        { "answer": "Nowa Zelandia", "correct": false },
+        { "answer": "RPA", "correct": false },
+        { "answer": "USA", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Taj Mahal?",
+      "options": [
+        { "answer": "Indie", "correct": true },
+        { "answer": "Pakistan", "correct": false },
+        { "answer": "Bangladesz", "correct": false },
+        { "answer": "Sri Lanka", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Wieża Dżucze?",
+      "options": [
+        { "answer": "Korea Północna", "correct": true },
+        { "answer": "Chiny", "correct": false },
+        { "answer": "Korea Południowa", "correct": false },
+        { "answer": "Japonia", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajdują się Wieże ciśnień?",
+      "options": [
+        { "answer": "Kuwejt", "correct": true },
+        { "answer": "Zjednoczone Emiraty Arabskie", "correct": false },
+        { "answer": "Katar", "correct": false },
+        { "answer": "Bahrajn", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Pomnik Azadiego?",
+      "options": [
+        { "answer": "Iran", "correct": true },
+        { "answer": "Irak", "correct": false },
+        { "answer": "Syria", "correct": false },
+        { "answer": "Liban", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie znajduje się Stonehenge?",
+      "options": [
+        { "answer": "Wielka Brytania", "correct": true },
+        { "answer": "Irlandia", "correct": false },
+        { "answer": "Francja", "correct": false },
+        { "answer": "Szkocja", "correct": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+    "Nauka":[
+      {
+      "question": "Kto upuścił młotek i pióro na Księżyc, aby wykazać, że bez powietrza spadają z tą samą prędkością?",
+      "options": [
+        { "answer": "Davida R. Scotta", "correct": true },
+        { "answer": "Neil Armstrong", "correct": false },
+        { "answer": "Buzz Aldrin", "correct": false },
+        { "answer": "Yuri Gagarin", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdyby Ziemia została przekształcona w czarną dziurę, jaka byłaby średnica jej horyzontu zdarzeń?",
+      "options": [
+        { "answer": "20 mm", "correct": true },
+        { "answer": "2 cm", "correct": false },
+        { "answer": "200 mm", "correct": false },
+        { "answer": "1 m", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdybyś spadł na pozbawioną powietrza, pozbawioną tarcia dziurę, przechodząc przez Ziemię, ile czasu zajmie opadnięcie na drugą stronę?",
+      "options": [
+        { "answer": "42 minut", "correct": true },
+        { "answer": "24 minut", "correct": false },
+        { "answer": "60 minut", "correct": false },
+        { "answer": "90 minut", "correct": false }
+      ]
+    },
+    {
+      "question": "Ile serc ma ośmiornica?",
+      "options": [
+        { "answer": "Trzy", "correct": true },
+        { "answer": "Dwa", "correct": false },
+        { "answer": "Cztery", "correct": false },
+        { "answer": "Jedno", "correct": false }
+      ]
+    },
+    {
+      "question": "W którym roku został opracowany produkt WD40 przez chemika Norma Larsena?",
+      "options": [
+        { "answer": "1953", "correct": true },
+        { "answer": "1945", "correct": false },
+        { "answer": "1960", "correct": false },
+        { "answer": "1972", "correct": false }
+      ]
+    },
+    {
+      "question": "Jeśli zrobiłbyś jeden krok co sekundę w butach siedmioligowych, jaka byłaby twoja prędkość w milach na godzinę?",
+      "options": [
+        { "answer": "75,600 mil na godzinę", "correct": true },
+        { "answer": "7,500 mil na godzinę", "correct": false },
+        { "answer": "750 mil na godzinę", "correct": false },
+        { "answer": "1,500 mil na godzinę", "correct": false }
+      ]
+    },
+    {
+      "question": "Co jest najdalej widoczne gołym okiem?",
+      "options": [
+        { "answer": "2.5 miliona lat świetlnych", "correct": true },
+        { "answer": "1 milion lat świetlnych", "correct": false },
+        { "answer": "100 tysięcy lat świetlnych", "correct": false },
+        { "answer": "10 milionów lat świetlnych", "correct": false }
+      ]
+    },
+    {
+      "question": "Ile najbliższych tysięcy włosów ma typowa ludzka głowa?",
+      "options": [
+        { "answer": "10,000", "correct": true },
+        { "answer": "100,000", "correct": false },
+        { "answer": "50,000", "correct": false },
+        { "answer": "150,000", "correct": false }
+      ]
+    },
+    {
+      "question": "Kto wynalazł gramofon?",
+      "options": [
+        { "answer": "Emila Berlinera", "correct": true },
+        { "answer": "Thomas Edison", "correct": false },
+        { "answer": "Alexander Graham Bell", "correct": false },
+        { "answer": "Nikola Tesla", "correct": false }
+      ]
+    },
+    {
+      "question": "Co oznaczają inicjały HAL dla komputera HAL 9000 w filmie 2001: A Space Odyssey?",
+      "options": [
+        { "answer": "Heurystycznie zaprogramowany komputer algorytmiczny", "correct": true },
+        { "answer": "Highly Advanced Logic", "correct": false },
+        { "answer": "Hyper Analytic Link", "correct": false },
+        { "answer": "Human Algorithmic Language", "correct": false }
+      ]
+    },
+    {
+      "question": "Ile lat zajmie wystrzelenie statku kosmicznego z Ziemi na planetę Pluton?",
+      "options": [
+        { "answer": "Dziewięć i pół roku", "correct": true },
+        { "answer": "Pięć lat", "correct": false },
+        { "answer": "Dwanaście lat", "correct": false },
+        { "answer": "Siedem lat", "correct": false }
+      ]
+    },
+    {
+      "question": "Kto wynalazł sztuczne napoje gazowane?",
+      "options": [
+        { "answer": "Joseph Priestley", "correct": true },
+        { "answer": "John Pemberton", "correct": false },
+        { "answer": "Norman Larsen", "correct": false },
+        { "answer": "Isaac Newton", "correct": false }
+      ]
+    },
+    {
+      "question": "W 1930 roku Albert Einstein i jego kolega otrzymali patent USA 1781541. Po co to było?",
+      "options": [
+        { "answer": "Lodówka", "correct": true },
+        { "answer": "Silnik elektryczny", "correct": false },
+        { "answer": "Telefon", "correct": false },
+        { "answer": "Akcelerator cząstek", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaka jest największa cząsteczka, która tworzy część ludzkiego ciała?",
+      "options": [
+        { "answer": "Chromosom 1", "correct": true },
+        { "answer": "DNA", "correct": false },
+        { "answer": "Białko kolagenowe", "correct": false },
+        { "answer": "RNA", "correct": false }
+      ]
+    },
+    {
+      "question": "Ile wody na Ziemi przypada na człowieka?",
+      "options": [
+        { "answer": "210,000,000,000 litrów", "correct": true },
+        { "answer": "21,000,000 litrów", "correct": false },
+        { "answer": "2,100,000 litrów", "correct": false },
+        { "answer": "21,000 litrów", "correct": false }
+      ]
+    },
+    {
+      "question": "Ile gramów soli (chlorku sodu) znajduje się w litrze typowej wody morskiej?",
+      "options": [
+        { "answer": "0", "correct": true },
+        { "answer": "3", "correct": false },
+        { "answer": "35", "correct": false },
+        { "answer": "100", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdybyś mógł przetworzyć miliard atomów na sekundę, ile lat zajęłaby teleportacja typowego człowieka?",
+      "options": [
+        { "answer": "200 miliard lat", "correct": true },
+        { "answer": "2 miliardy lat", "correct": false },
+        { "answer": "20 milionów lat", "correct": false },
+        { "answer": "200 tysięcy lat", "correct": false }
+      ]
+    },
+    {
+      "question": "Gdzie powstały pierwsze animacje komputerowe?",
+      "options": [
+        { "answer": "Laboratorium Rutherford Appleton", "correct": true },
+        { "answer": "MIT Media Lab", "correct": false },
+        { "answer": "Pixar Studios", "correct": false },
+        { "answer": "Bell Labs", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki procent masy Układu Słonecznego znajduje się w Słońcu?",
+      "options": [
+        { "answer": "99%", "correct": true },
+        { "answer": "90%", "correct": false },
+        { "answer": "75%", "correct": false },
+        { "answer": "50%", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaka jest średnia temperatura powierzchni na Wenus?",
+      "options": [
+        { "answer": "460°C (860°F)", "correct": true },
+        { "answer": "100°C", "correct": false },
+        { "answer": "350°C", "correct": false },
+        { "answer": "600°C", "correct": false }
+      ]
+    }
+  ]
+}
